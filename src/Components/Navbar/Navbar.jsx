@@ -1,3 +1,4 @@
+import { IoMdDownload } from "react-icons/io";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -13,13 +14,13 @@ const Navbar = () => {
                 <Link to="/contact">Contact me</Link>
             </li>
             <li className="">
-            <a href="../../assets/Md. Ibrahim Khan Adib - Resume .docx.pdf" download="Md_Ibrahim_Khan_Adib_Resume.pdf" className="">Resume</a>
+            <a href="../../assets/Md. Ibrahim Khan Adib - Resume .docx.pdf" download="Md_Ibrahim_Khan_Adib_Resume.pdf" className="">Resume <IoMdDownload ></IoMdDownload></a>
             </li>
         </>
     );
 
     return (
-        <div className="navbar fixed bg-opacity-75 bg-gray-300 z-[9]">
+        <div className="navbar fixed bg-opacity-5 bg-black z-[9]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div

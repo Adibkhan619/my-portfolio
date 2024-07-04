@@ -2,7 +2,7 @@
 
 const About = () => {
     return (
-        <div  className="pt-24 lg:mx-24 text-lg lg:flex flex-col px-2 gap-16">
+        <div  className="pt-24 lg:mx-24 text-lg lg:flex lg:flex-row flex-col mx-7 gap-16">
             <img src="../../public/1714645679948.jpg" className="w-96 h-96 rounded-lg shadow-md mb-10"  alt="" />
             <div className="space-y-8">
                 <h1><span className="text-4xl font-bold ">Hello!</span></h1>
@@ -95,7 +95,7 @@ const About = () => {
           
 
 
-            <div className="card bg-slate-100 p-5 shadow-md h-fit text-sm my-5">
+            <div className="card bg-orange-200 p-8 shadow-md h-fit text-sm my-5">
             <h2 className="text-xl font-bold pb-5">Contact</h2>
             <p>9/A Dhanmondi, Dhaka</p>
             <p>Phone: +880 1875 957 809</p>

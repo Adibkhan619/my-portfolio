@@ -7,9 +7,9 @@ const Root = () => {
         <div
             style={{
                 backgroundImage:
-                    "url(https://i.postimg.cc/XNgrH41G/blue-border-abstract-gradient-background.jpg)",
+                    "url(https://i.postimg.cc/fL6JmgkZ/73896781-malmm-9.jpg)",
             }}
-            className="bg-cover min-h-screen "
+            className=" h-full w-full bg-cover bg-fixed bg-no-repeat "
         >
             <Navbar></Navbar>
             <div className="min-h-[calc(100vh-308px)]">

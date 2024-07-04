@@ -22,3 +22,15 @@
 .playwrite{
     font-family: "Playwrite AU SA", cursive;
 }
+
+.background-container {
+    /* background-image: url('https://i.postimg.cc/02fThKx1/46764.jpg'); */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Sets the height to 100% of the viewport height */
+    width: 100vw; /* Sets the width to 100% of the viewport width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
