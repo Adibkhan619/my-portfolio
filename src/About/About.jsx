@@ -3,7 +3,7 @@
 const About = () => {
     return (
         <div  className="pt-24 lg:mx-24 text-lg lg:flex lg:flex-row flex-col mx-7 gap-16">
-            <img src="../../public/1714645679948.jpg" className="w-96 h-96 rounded-lg shadow-md mb-10"  alt="" />
+            <img src="/1714645679948.jpg" className="w-96 h-96 rounded-lg shadow-md mb-10"  alt="" />
             <div className="space-y-8">
                 <h1><span className="text-4xl font-bold ">Hello!</span></h1>
                   <h1>

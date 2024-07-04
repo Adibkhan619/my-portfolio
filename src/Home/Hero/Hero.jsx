@@ -6,7 +6,7 @@ const Hero = () => {
             <div className="hero bg-opacity-0 min-h-screen pt-16">
                 <div className="hero-content flex-col lg:flex-row-reverse lg:gap-24 ">
                     <img
-                        src="./../../public/1714714186487.jpg"
+                        src="/1714714186487.jpg"
                         className="lg:max-w-md rounded-lg shadow-2xl"
                     />
                     <div>

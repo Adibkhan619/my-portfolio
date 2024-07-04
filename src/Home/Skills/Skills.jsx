@@ -13,7 +13,7 @@ const Skills = () => {
       <div>
         <div className=" text-center mx-auto lg:my-16 my-8">
         <div className=" border-dotted border-y-4 border-orange-500 ">
-                <h1 className="lg:text-6xl text-4xl font-bold text-center py-6 poppins text-transparent bg-clip-text bg-gradient-to-r from-orange-700 via-orange-700 to-gray-900">Technologies I love</h1>
+                <h1 className="lg:text-6xl text-4xl font-bold text-center py-6 poppins text-transparent bg-clip-text bg-gradient-to-r from-orange-700 via-orange-700 to-gray-900">Technologies I Use</h1>
             </div>
            
         </div>

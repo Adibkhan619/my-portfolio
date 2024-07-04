@@ -1,6 +1,6 @@
-import { IoMdDownload } from "react-icons/io";
+// import { IoMdDownload } from "react-icons/io";
 import { Link } from "react-router-dom";
-
+// import resume from "../../assets/Md. Ibrahim Khan Adib - Resume .docx.pdf";
 const Navbar = () => {
     const links = (
         <>
@@ -13,9 +13,9 @@ const Navbar = () => {
             <li className="">
                 <Link to="/contact">Contact me</Link>
             </li>
-            <li className="">
-            <a href="../../assets/Md. Ibrahim Khan Adib - Resume .docx.pdf" download="Md_Ibrahim_Khan_Adib_Resume.pdf" className="">Resume <IoMdDownload ></IoMdDownload></a>
-            </li>
+            {/* <li className="">
+            <a href={resume} download="Md_Ibrahim_Khan_Adib_Resume.pdf" className="">Resume <IoMdDownload ></IoMdDownload></a>
+            </li> */}
         </>
     );
 

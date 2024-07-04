@@ -30,12 +30,12 @@ const MyProjects = () => {
                     <h2 className="card-title text-3xl font-bold">Feedback Pro <span className="text-xl"> (Survey Management Website)</span></h2>
                     <p className="mt-5">Feedback Pro is a simple, elegant and easy to use website to conduct personalized survey. A surveyor can post a survey or question in the website and monitor feedback from the users. The website is structured for 4 types of users : 1) Admin 2) Surveyor 3) User 4)Pro-user each having different access permissions and roles.</p>
 
-                    <ul className=" lg:flex gap-5 space-x-4">
-                            <li className="flex items-center gap-2"><IoMdSettings className="text-sky-400"></IoMdSettings> Javascript</li>
-                            <li className="flex items-center gap-2"><IoMdSettings></IoMdSettings>Node.js</li>
-                            <li className="flex items-center gap-2"><IoMdSettings className="text-sky-400"></IoMdSettings>React</li>
-                            <li className="flex items-center gap-2"><IoMdSettings></IoMdSettings>MongoDB</li>
-                            <li className="flex items-center gap-2"><IoMdSettings className="text-sky-400"></IoMdSettings>TailwindCSS</li>
+                    <ul className=" lg:flex gap-5 lg:space-x-4 ">
+                            <li className="flex  items-center gap-2"><IoMdSettings className="text-sky-400"></IoMdSettings> Javascript</li>
+                            <li className="flex  items-center gap-2"><IoMdSettings></IoMdSettings>Node.js</li>
+                            <li className="flex  items-center gap-2"><IoMdSettings className="text-sky-400"></IoMdSettings>React</li>
+                            <li className="flex  items-center gap-2"><IoMdSettings></IoMdSettings>MongoDB</li>
+                            <li className="flex justify-start items-center gap-2"><IoMdSettings className="text-sky-400"></IoMdSettings>TailwindCSS</li>
                         </ul>
                     <div className="card-actions justify-end">
                        
@@ -57,7 +57,7 @@ const MyProjects = () => {
                         This website serves as a management platform of a restaurant, a glossary for the cooking enthusiasts, and a marketplace for the customers. Registered Users can add their unique food items with personalized recipe and publish them in the website.
                         </p>
 
-                        <ul className=" lg:flex gap-5 space-x-4">
+                        <ul className=" lg:flex gap-5 lg:space-x-4">
                             <li className="flex items-center gap-2"><IoMdSettings className="text-green-500"></IoMdSettings> Javascript</li>
                             <li className="flex items-center gap-2"><IoMdSettings></IoMdSettings>Node.js</li>
                             <li className="flex items-center gap-2"><IoMdSettings className="text-green-500"></IoMdSettings>React</li>
@@ -85,7 +85,7 @@ const MyProjects = () => {
                     This website is a good place for travel enthusiasts who want to learn about popular tourist destinations across 6 countries of South East Asia including Bangladesh, Malaysia, Indonesia, Bhutan, Cambodia and Philippines. 
                     </p>
 
-                    <ul className=" lg:flex gap-5 space-x-4">
+                    <ul className=" lg:flex gap-5 lg:space-x-4">
                             <li className="flex items-center gap-2"><IoMdSettings className="text-red-500"></IoMdSettings> Javascript</li>
                             <li className="flex items-center gap-2"><IoMdSettings></IoMdSettings>Node.js</li>
                             <li className="flex items-center gap-2"><IoMdSettings className="text-red-500"></IoMdSettings>React</li>

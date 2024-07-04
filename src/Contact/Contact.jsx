@@ -16,23 +16,23 @@ const Contact = () => {
             </div>
             <div className="my-10">
                      <div className="flex items-center gap-3">
-                    <img className="w-12 h-12 ml-3" src="../../public/Icons/linkedin.png" alt="" />
+                    <img className="w-12 h-12 ml-3" src="/Icons/linkedin.png" alt="" />
                     <p><a href="https://www.linkedin.com/in/adibkhan101/">adibkhan101</a></p>
                     </div>
                      <div className="flex items-center gap-3">
-                    <img className="w-16 h-16" src="../../public/Icons/github.png" alt="" />
+                    <img className="w-16 h-16" src="/Icons/github.png" alt="" />
                     <p><a href="https://www.facebook.com/adib.khan.619/">adibkhan619</a></p>
                     </div>
                      <div className="flex items-center gap-3">
-                    <img className="w-16 h-16" src="../../public/Icons/facebook.png" alt="" />
+                    <img className="w-16 h-16" src="/Icons/facebook.png" alt="" />
                     <p><a href="https://www.facebook.com/adib.khan.619/">Adib Khan</a></p>
                     </div>
                      <div className="flex items-center gap-3">
-                    <img className="w-16 h-16" src="../../public/Icons/whatsapp.png" alt="" />
+                    <img className="w-16 h-16" src="/Icons/whatsapp.png" alt="" />
                     <p>+880 1875 957 809</p>
                     </div>
                      <div className="flex items-center gap-3">
-                    <img className="w-10 h-10 ml-3" src="../../public/Icons/pngwing.com (14).png" alt="" />
+                    <img className="w-10 h-10 ml-3" src="/Icons/pngwing.com (14).png" alt="" />
                     <p>work.adibkhan@gmail.com</p>
                     </div>
             </div>
