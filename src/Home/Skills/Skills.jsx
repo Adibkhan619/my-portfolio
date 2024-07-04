@@ -13,7 +13,7 @@ const Skills = () => {
       <div>
         <div className=" text-center mx-auto my-16">
         <div className=" border-dashed border-y-4 border-gray-300">
-                <h1 className="text-6xl font-bold text-center py-6">Technologies I have learnt</h1>
+                <h1 className="text-6xl font-bold text-center py-6">Technologies I love</h1>
             </div>
            
         </div>
