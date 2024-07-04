@@ -10,10 +10,10 @@ const Navbar = () => {
                 <Link to="/about">About Me</Link>{" "}
             </li>
             <li className="">
-                <Link to="/">Resume</Link>
+                <Link to="/contact">Contact me</Link>
             </li>
             <li className="">
-                <Link to="/contact">Contact me</Link>
+            <a href="../../assets/Md. Ibrahim Khan Adib - Resume .docx.pdf" download="Md_Ibrahim_Khan_Adib_Resume.pdf" className="">Resume</a>
             </li>
         </>
     );

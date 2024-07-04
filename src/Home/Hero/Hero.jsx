@@ -14,7 +14,9 @@ const Hero = () => {
       <p className="py-6">
       As a dedicated Frontend Developer with a passion for problem-solving, I specialize in JavaScript, React, and Node.js, creating dynamic and responsive web applications. My expertise extends to utilizing Tailwind CSS for sleek, modern designs, and leveraging MongoDB and Express.js to develop robust back-end solutions. 
       </p>
-      <button className="btn btn-primary">Get Started</button>
+      <button className="btn btn-primary">          
+        <a href="../../assets/Md. Ibrahim Khan Adib - Resume .docx.pdf" download="Md_Ibrahim_Khan_Adib_Resume.pdf" className="">Resume</a>
+        </button>
     </div>
   </div>
 </div>
