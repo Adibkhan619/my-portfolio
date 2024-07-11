@@ -15,15 +15,15 @@ const Skills = () => {
         
       <div>
         <div className=" text-center mx-auto lg:my-16 my-8">
-        <div className=" border-dotted border-y-4 border-orange-500 " data-aos="fade-down"
+        <div className=" border-dotted mx-3 border-y-4 border-orange-500 " data-aos="fade-down"
         data-aos-duration="2000">
-                <h1 className="lg:text-6xl text-4xl font-bold text-center py-6 poppins text-transparent bg-clip-text bg-gradient-to-r from-orange-700 via-orange-700 to-gray-900" >Technologies I Use</h1>
+                <h1 className="lg:text-6xl text-4xl font-bold text-center  py-6 poppins text-transparent bg-clip-text bg-gradient-to-r from-orange-700 via-orange-700 to-gray-900" >Technologies I Use</h1>
             </div>
            
         </div>
           <>
-        <div className="mx-2">
-            <div className="grid lg:grid-cols-4 grid-cols-4 lg:max-w-3xl gap-10 mx-auto" data-aos="fade-up"
+        <div className="mx-2 my-8">
+            <div className="grid lg:grid-cols-4 grid-cols-4 lg:max-w-3xl gap-10 mx-auto " data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" data-aos-duration="1500">
                 <img src={icon1} alt="Shoes" className="lg:w-36 lg:h-36 mr-5" />
                 <img src={icon2} alt="Shoes" className="lg:w-32 lg:h-36" />
