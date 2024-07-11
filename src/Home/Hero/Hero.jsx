@@ -19,10 +19,10 @@ const Hero = () => {
                             Md Ibrahim Khan Adib
                         </h1>
                         <h1 className="lg:text-7xl text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-600 via-gray-700 to-gray-800 " data-aos="fade-up"
-        data-aos-duration="2000">
+        data-aos-duration="1000">
                             Frontend Developer
                         </h1>
-                        <p className="py-6 poppins">
+                        <p className="py-6 poppins  rounded-xl bg-opacity-10" data-aos="flip-up">
                             As a dedicated Frontend Developer with a passion for
                             problem-solving, I specialize in JavaScript, React,
                             and Node.js, creating dynamic and responsive web
@@ -31,11 +31,13 @@ const Hero = () => {
                             leveraging MongoDB and Express.js to develop robust
                             back-end solutions.
                         </p>
-                        <button className="btn btn-ghost border-gray-800">
+                        <button className="btn btn-ghost border-gray-800" data-aos="flip-down"
+        data-aos-duration="1000">
                             <a
                                 href={resume}
                                 download="Md_Ibrahim_Khan_Adib_Resume.pdf"
                                 className="flex items-center gap-3 text-lg font-bold text-gray-800"
+                                x
                             >
                                 Resume
                                 <IoMdDownload className="text-2xl text-gray-800 playwrite"></IoMdDownload>

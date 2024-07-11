@@ -2,8 +2,8 @@
 
 const Contact = () => {
     return (
-        <div className="pt-24 items-center lg:gap-10 lg:mx-24 justify-around flex flex-col lg:flex-row-reverse ">
-            <div className="lg:w-1/2 space-y-5 mx-5">
+        <div className="pt-24 items-center lg:gap-10 lg:mx-24 lg:justify-around flex flex-col lg:flex-row-reverse " >
+            <div className="lg:w-1/2 space-y-5 mx-5" data-aos="flip-down" data-aos-duration="2000">
                 <h1 className="text-4xl font-bold">Get in Touch</h1>
                 <p>
                     I'd love to hear from you! Whether you have a project in
@@ -14,8 +14,8 @@ const Contact = () => {
                     amazing. Looking forward to connecting with you!
                 </p>
             </div>
-            <div className="my-10">
-                     <div className="flex items-center gap-3">
+            <div className="my-10" data-aos="zoom-out-up" data-aos-duration="1000">
+                     <div className="flex  items-center gap-3 ">
                     <img className="w-12 h-12 ml-3" src="/Icons/linkedin.png" alt="" />
                     <p><a href="https://www.linkedin.com/in/adibkhan101/">adibkhan101</a></p>
                     </div>
