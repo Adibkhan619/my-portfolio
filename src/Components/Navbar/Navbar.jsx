@@ -8,10 +8,10 @@ const Navbar = () => {
                 <Link to="/">Portfolio</Link>
             </li>
             <li className="">
-                <Link to="/about">About Me</Link>{" "}
+                <Link to="/about">About </Link>{" "}
             </li>
             <li className="">
-                <Link to="/contact">Contact me</Link>
+                <Link to="/contact">Contact </Link>
             </li>
             {/* <li className="">
             <a href={resume} download="Md_Ibrahim_Khan_Adib_Resume.pdf" className="">Resume <IoMdDownload ></IoMdDownload></a>
@@ -22,7 +22,7 @@ const Navbar = () => {
     return (
         <div className="navbar fixed bg-opacity-5 bg-black z-[9]">
             <div className="navbar-start">
-                <div className="dropdown">
+                {/* <div className="dropdown">
                     <div
                         tabIndex={0}
                         role="button"
@@ -49,11 +49,11 @@ const Navbar = () => {
                     >
                         {links}
                     </ul>
-                </div>
+                </div> */}
                 {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
             </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 text-lg font-semibold">{links}</ul>
+            <div className="navbar-center justify-center flex ">
+                <ul className="menu menu-horizontal px-1 text-lg font-semibold poppins">{links}</ul>
             </div>
             <div className="navbar-end">
                 {/* <a className="btn">Button</a> */}
