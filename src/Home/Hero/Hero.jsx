@@ -31,7 +31,7 @@ const Hero = () => {
                             leveraging MongoDB and Express.js to develop robust
                             back-end solutions.
                         </p>
-                        <button className="btn btn-ghost border-gray-800" data-aos="flip-down"
+                        <button className="btn btn-ghost hover:bg-orange-400 border-gray-800" data-aos="flip-down"
         data-aos-duration="1000">
                             <a
                                 href={resume}

@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     const links = (
         <>
-            <li className="">
-                <Link to="/">Portfolio</Link>
+            <li >
+                <Link className="hover:bg-orange-300" to="/">Portfolio</Link>
             </li>
-            <li className="">
-                <Link to="/about">About </Link>{" "}
+            <li >
+                <Link className="hover:bg-orange-300" to="/about">About </Link>{" "}
             </li>
-            <li className="">
-                <Link to="/contact">Contact </Link>
+            <li >
+                <Link className="hover:bg-orange-300" to="/contact">Contact </Link>
             </li>
             {/* <li className="">
             <a href={resume} download="Md_Ibrahim_Khan_Adib_Resume.pdf" className="">Resume <IoMdDownload ></IoMdDownload></a>
@@ -53,7 +53,7 @@ const Navbar = () => {
                 {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
             </div>
             <div className="navbar-center justify-center flex ">
-                <ul className="menu menu-horizontal px-1 text-lg font-semibold poppins">{links}</ul>
+                <ul className="menu menu-horizontal px-1 text-lg font-semibold poppins ">{links}</ul>
             </div>
             <div className="navbar-end">
                 {/* <a className="btn">Button</a> */}
